@@ -1,0 +1,24 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b53ab0295f3f2a0689f09587cb9c73be
+# Starting compiling UnityEngine.UI.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-afeb9e429ccd3a35aae3433e9517b16b
+# Starting compiling UnityEditor.TestRunner.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e071c6fdebdd46296b067e0dac25b1db
+# Starting compiling UnityEditor.UI.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-006f0720dd25d46b2b2704d5296faaa3
+# Starting compiling Unity.VSCode.Editor.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-137cfefbba1b8e36688816d3e97f2105
+# Starting compiling Unity.VisualStudio.Editor.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2e46501908af647b6937056854ac9314
+# Starting compiling Unity.Timeline.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4f491abfaf3e3bb7997ee7e71316a91f
+# Starting compiling Unity.TextMeshPro.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2cd4b6606c2d322e4b5aeeb6152df594
+# Starting compiling Unity.CollabProxy.Editor.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5e386051166df49e9bf0097f0468ae04
+# Starting compiling Unity.Rider.Editor.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-31c32d1669219b6ffb623218dd86fe59
+# Starting compiling Unity.Timeline.Editor.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7dced25664f6e3b5088a4b3cbe993fd2
+# Starting compiling Unity.TextMeshPro.Editor.dll
+/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6d382b7293c9e5f8ab7dac9e9a737485
