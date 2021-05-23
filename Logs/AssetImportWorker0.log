@@ -1,0 +1,569 @@
+Using pre-set license
+Desktop is 1366 x 768 @ 60 Hz
+
+ COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/quantmad/Project/Unity/OpenRTS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+42783
+Successfully changed project path to: /home/quantmad/Project/Unity/OpenRTS
+/home/quantmad/Project/Unity/OpenRTS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50,31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path /home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/quantmad/Project/Unity/OpenRTS/Assets
+GLX Extensions: GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_video_sync GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_ARB_multisample GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_framebuffer_sRGB GLX_NV_multisample_coverage GLX_NV_copy_image GLX_ARB_get_proc_address 
+Renderer: GeForce GT 635M/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 390.143
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_s
+hader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shade
+r_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_t
+exture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_onc
+e GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
+ GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior G
+L_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_
+path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL
+_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1095348312
+Initialize mono
+Mono path[0] = '/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = '/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,003732 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62,57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,708 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,000815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,862 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0,39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51,4 MB.
+System memory in use after: 51,5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 5,959081 ms (FindLiveObjects: 0,216632 ms CreateObjectMapping: 0,100542 ms MarkObjects: 5,230628 ms  DeleteObjects: 0,407904 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Materials/Materials/grass.mat
+  artifactKey: Guid(a519a682fb8b5e648b29033a48c81e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/grass.mat using Guid(a519a682fb8b5e648b29033a48c81e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655823f6758b6419695d926f6eafa54e') in 0,244767 seconds
+  Import took 0,249237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12,554869 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(8d201d802cecdadfea40df792045ab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(8d201d802cecdadfea40df792045ab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c738a8871b9fd4bb41a1d6c297730fdd') in 0,001138 seconds
+  Import took 0,004227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,003868 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(8d201d802cecdadfea40df792045ab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(8d201d802cecdadfea40df792045ab05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c738a8871b9fd4bb41a1d6c297730fdd') in 0,001034 seconds
+  Import took 0,004154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10,583387 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f530e5599baf5765520199d4e98d3714') in 0,013138 seconds
+  Import took 0,016553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,036119 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f530e5599baf5765520199d4e98d3714') in 0,005290 seconds
+  Import took 0,009056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46,059236 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e9c76b31f91430bbfd58905569b941') in 0,008916 seconds
+  Import took 0,012139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31,354387 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3955455f0dd4b4638601646f2d1b149c') in 0,003573 seconds
+  Import took 0,007122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9,660616 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6a0183a4a24c3c4e341c2374709874') in 0,003894 seconds
+  Import took 0,007583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9,361764 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dc9e998d75175517da6b1c482d9edf') in 0,003817 seconds
+  Import took 0,007293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,952997 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd4bcf216fb820b41ecec8c7dcd07f9') in 0,003641 seconds
+  Import took 0,007277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,759595 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4396887e8fe17f60d05a3881da35dbe') in 0,004303 seconds
+  Import took 0,007877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,466910 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4204f79ae064eab73c3cfe756c2eae') in 0,003567 seconds
+  Import took 0,006983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11,294153 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b984643cee61f518f8a909de4042d0') in 0,003505 seconds
+  Import took 0,006829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10,842061 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32de0aa9f887d140250b979259d6f4de') in 0,006176 seconds
+  Import took 0,009847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9,115372 seconds.
+  path: Assets/Prefabs/GUICamera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUICamera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a36c8f4b93c4502f2718781c351ae9') in 0,003640 seconds
+  Import took 0,007413 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,000786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53,0 MB.
+System memory in use after: 53,1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1600.
+Total: 4,503806 ms (FindLiveObjects: 0,216255 ms CreateObjectMapping: 0,077229 ms MarkObjects: 4,109614 ms  DeleteObjects: 0,097845 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 144,600045 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(44b94a3455511f1138b8cc8b30d38b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(44b94a3455511f1138b8cc8b30d38b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262edc188709536756bdd803772c3093') in 0,004593 seconds
+  Import took 0,007905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,145032 seconds.
+  path: Assets/Scripts/Cameras
+  artifactKey: Guid(5c054426f4bfacc4191274d7a8a182b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cameras using Guid(5c054426f4bfacc4191274d7a8a182b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5746676a64053109f04aa1baef288062') in 0,001693 seconds
+  Import took 0,004998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12,015122 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(15e1e7a1b5091fd91b2a19523f8442bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(15e1e7a1b5091fd91b2a19523f8442bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3cf325688bb3a8b2ea5a6399e885e5') in 0,001093 seconds
+  Import took 0,004159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,501661 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26cf48eab1b6c8ad8794d1a1e16d500') in 0,047787 seconds
+  Import took 0,051581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,033594 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26cf48eab1b6c8ad8794d1a1e16d500') in 0,006379 seconds
+  Import took 0,010829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13,247145 seconds.
+  path: Assets/Scripts/Controllers
+  artifactKey: Guid(c39e60e7a42546b9085c2e7cedf24e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controllers using Guid(c39e60e7a42546b9085c2e7cedf24e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a594d77560778a69c71e791f23e502c5') in 0,001145 seconds
+  Import took 0,004413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11,211097 seconds.
+  path: Assets/Scripts/Cameras/MainCamera.cs
+  artifactKey: Guid(7e1b88d39c1808a5eaa7d63941f34ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cameras/MainCamera.cs using Guid(7e1b88d39c1808a5eaa7d63941f34ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9019ace0c5a8512c2ea9668e51721a99') in 0,002291 seconds
+  Import took 0,005709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,007362 seconds.
+  path: Assets/Scripts/Cameras/MainCamera.cs
+  artifactKey: Guid(7e1b88d39c1808a5eaa7d63941f34ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cameras/MainCamera.cs using Guid(7e1b88d39c1808a5eaa7d63941f34ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9019ace0c5a8512c2ea9668e51721a99') in 0,002549 seconds
+  Import took 0,005883 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,000742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,697 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53,0 MB.
+System memory in use after: 53,1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 3,895262 ms (FindLiveObjects: 0,226361 ms CreateObjectMapping: 0,081362 ms MarkObjects: 3,505056 ms  DeleteObjects: 0,080033 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27,917675 seconds.
+  path: Assets/Prefabs/GUI Camera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUI Camera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b10a197e552095926f30d277301ebfb') in 0,050518 seconds
+  Import took 0,054189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,004005 seconds.
+  path: Assets/Prefabs/GUI Camera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GUI Camera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b10a197e552095926f30d277301ebfb') in 0,005624 seconds
+  Import took 0,010262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,843318 seconds.
+  path: Assets/Prefabs/UI Camera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Camera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c6cbc5a362c8293089eaff36219886') in 0,006322 seconds
+  Import took 0,011367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,052495 seconds.
+  path: Assets/Prefabs/UI Camera.prefab
+  artifactKey: Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Camera.prefab using Guid(9b4218d5fbc1d0a9c8c64320b1cc32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c6cbc5a362c8293089eaff36219886') in 0,005564 seconds
+  Import took 0,010254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18,900664 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd51eadd897613076ecd8a7a636818e') in 0,004867 seconds
+  Import took 0,008189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,039569 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd51eadd897613076ecd8a7a636818e') in 0,003902 seconds
+  Import took 0,007819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15,135275 seconds.
+  path: Assets/Prefabs/Cameras
+  artifactKey: Guid(7948595ce3e4cf65c908154e70b37219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cameras using Guid(7948595ce3e4cf65c908154e70b37219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e32ae4511ade0d06551617e0f02c92') in 0,001608 seconds
+  Import took 0,004855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9,521440 seconds.
+  path: Assets/Prefabs/Controllers
+  artifactKey: Guid(f4391d5dcb72d15728527af0fb59ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers using Guid(f4391d5dcb72d15728527af0fb59ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c1d11465fed15ae0df7a2590cdf1b0') in 0,001661 seconds
+  Import took 0,005023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19,749399 seconds.
+  path: Assets/Prefabs/Controllers/Gameplay Controller.prefab
+  artifactKey: Guid(a04d5160e72361605b50091be3d3bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/Gameplay Controller.prefab using Guid(a04d5160e72361605b50091be3d3bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4a540f4e31030953a8d2043a91d5ea') in 0,004654 seconds
+  Import took 0,008750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001761 seconds.
+  path: Assets/Prefabs/Controllers/Gameplay Controller.prefab
+  artifactKey: Guid(a04d5160e72361605b50091be3d3bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/Gameplay Controller.prefab using Guid(a04d5160e72361605b50091be3d3bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4a540f4e31030953a8d2043a91d5ea') in 0,003977 seconds
+  Import took 0,007302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10,817136 seconds.
+  path: Assets/Prefabs/Controllers/UI Controller.prefab
+  artifactKey: Guid(bff383eb26001d31b9c7c898c5b6e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/UI Controller.prefab using Guid(bff383eb26001d31b9c7c898c5b6e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680291cb3d803161f1f7e70f75977112') in 0,004282 seconds
+  Import took 0,007693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001329 seconds.
+  path: Assets/Prefabs/Controllers/UI Controller.prefab
+  artifactKey: Guid(bff383eb26001d31b9c7c898c5b6e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/UI Controller.prefab using Guid(bff383eb26001d31b9c7c898c5b6e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680291cb3d803161f1f7e70f75977112') in 0,003989 seconds
+  Import took 0,007335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27,911634 seconds.
+  path: Assets/Scripts/Controllers/GameplayController.cs
+  artifactKey: Guid(d34ae16a5f915ff9d97a4d184ff26b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controllers/GameplayController.cs using Guid(d34ae16a5f915ff9d97a4d184ff26b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b10ab5f7abdec85ae2e6ac9ab129497') in 0,002307 seconds
+  Import took 0,005967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,006111 seconds.
+  path: Assets/Scripts/Controllers/GameplayController.cs
+  artifactKey: Guid(d34ae16a5f915ff9d97a4d184ff26b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controllers/GameplayController.cs using Guid(d34ae16a5f915ff9d97a4d184ff26b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b10ab5f7abdec85ae2e6ac9ab129497') in 0,002207 seconds
+  Import took 0,005873 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,001013 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53,1 MB.
+System memory in use after: 53,1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 4,148728 ms (FindLiveObjects: 0,222653 ms CreateObjectMapping: 0,081351 ms MarkObjects: 3,725978 ms  DeleteObjects: 0,115793 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16,049240 seconds.
+  path: Assets/Scripts/Controllers/UIController.cs
+  artifactKey: Guid(73684b1b43e09632cb55f4918428ddc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controllers/UIController.cs using Guid(73684b1b43e09632cb55f4918428ddc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a9ded185160a777023e4c4b5e048d2') in 0,006574 seconds
+  Import took 0,011183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001184 seconds.
+  path: Assets/Scripts/Controllers/UIController.cs
+  artifactKey: Guid(73684b1b43e09632cb55f4918428ddc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controllers/UIController.cs using Guid(73684b1b43e09632cb55f4918428ddc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a9ded185160a777023e4c4b5e048d2') in 0,002182 seconds
+  Import took 0,005749 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,000744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53,1 MB.
+System memory in use after: 53,2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 4,838499 ms (FindLiveObjects: 0,291297 ms CreateObjectMapping: 0,092075 ms MarkObjects: 4,342489 ms  DeleteObjects: 0,109111 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22,368490 seconds.
+  path: Assets/Prefabs/Controllers/Gameplay Controller.prefab
+  artifactKey: Guid(a04d5160e72361605b50091be3d3bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/Gameplay Controller.prefab using Guid(a04d5160e72361605b50091be3d3bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e64f9c8e29df063fe996c1de12819fd') in 0,051511 seconds
+  Import took 0,055425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,006265 seconds.
+  path: Assets/Prefabs/Controllers/Gameplay Controller.prefab
+  artifactKey: Guid(a04d5160e72361605b50091be3d3bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/Gameplay Controller.prefab using Guid(a04d5160e72361605b50091be3d3bf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e64f9c8e29df063fe996c1de12819fd') in 0,003793 seconds
+  Import took 0,007281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,592479 seconds.
+  path: Assets/Prefabs/Controllers/UI Controller.prefab
+  artifactKey: Guid(bff383eb26001d31b9c7c898c5b6e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/UI Controller.prefab using Guid(bff383eb26001d31b9c7c898c5b6e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbdffee1c52c2cc520372e3e8d01bf9') in 0,004070 seconds
+  Import took 0,007532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,032370 seconds.
+  path: Assets/Prefabs/Controllers/UI Controller.prefab
+  artifactKey: Guid(bff383eb26001d31b9c7c898c5b6e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/UI Controller.prefab using Guid(bff383eb26001d31b9c7c898c5b6e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbdffee1c52c2cc520372e3e8d01bf9') in 0,003137 seconds
+  Import took 0,006690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35,649689 seconds.
+  path: Assets/Prefabs/Controllers/[CONTROLLERS].prefab
+  artifactKey: Guid(ddddc914388f6046482d4fd8e3ad3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/[CONTROLLERS].prefab using Guid(ddddc914388f6046482d4fd8e3ad3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51581fd15a36c485aa40bb3d6575d616') in 0,004240 seconds
+  Import took 0,007661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001225 seconds.
+  path: Assets/Prefabs/Controllers/[CONTROLLERS].prefab
+  artifactKey: Guid(ddddc914388f6046482d4fd8e3ad3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/[CONTROLLERS].prefab using Guid(ddddc914388f6046482d4fd8e3ad3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51581fd15a36c485aa40bb3d6575d616') in 0,004116 seconds
+  Import took 0,007284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30,980620 seconds.
+  path: Assets/Prefabs/Controllers/[CONTROLLERS] 1.prefab
+  artifactKey: Guid(711d1eae93a7ee62d88fba75f4bfe101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/[CONTROLLERS] 1.prefab using Guid(711d1eae93a7ee62d88fba75f4bfe101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4877488754ba4ab8077d2b9e2694e6') in 0,005962 seconds
+  Import took 0,010452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,033792 seconds.
+  path: Assets/Prefabs/Controllers/[CONTROLLERS] 1.prefab
+  artifactKey: Guid(711d1eae93a7ee62d88fba75f4bfe101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/[CONTROLLERS] 1.prefab using Guid(711d1eae93a7ee62d88fba75f4bfe101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4877488754ba4ab8077d2b9e2694e6') in 0,007109 seconds
+  Import took 0,012542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17,436974 seconds.
+  path: Assets/Prefabs/Controllers/[CONTROLLERS].prefab
+  artifactKey: Guid(ddddc914388f6046482d4fd8e3ad3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Controllers/[CONTROLLERS].prefab using Guid(ddddc914388f6046482d4fd8e3ad3337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50d67d7dc2614ffd365f04974641808') in 0,004337 seconds
+  Import took 0,008560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23,784005 seconds.
+  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
+  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f05e588b47aae34cc7cc260f45017fa') in 0,005183 seconds
+  Import took 0,009042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001172 seconds.
+  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
+  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f05e588b47aae34cc7cc260f45017fa') in 0,003040 seconds
+  Import took 0,006366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9,856140 seconds.
+  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
+  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012e47e9a865380b04c67f6559a0d7fa') in 0,005211 seconds
+  Import took 0,009681 seconds .
+
