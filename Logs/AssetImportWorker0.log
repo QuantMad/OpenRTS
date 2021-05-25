@@ -549,3 +549,19 @@ System memory in use after: 51,8 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1617.
 Total: 4,469184 ms (FindLiveObjects: 0,377362 ms CreateObjectMapping: 0,097047 ms MarkObjects: 3,905585 ms  DeleteObjects: 0,086320 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 457,308376 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(9ebac1cca52d5140bb26261f411aa7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(9ebac1cca52d5140bb26261f411aa7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810144cbfd8bf983f0f501d13b65b731') in 0,004749 seconds
+  Import took 0,008315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,035096 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(9ebac1cca52d5140bb26261f411aa7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(9ebac1cca52d5140bb26261f411aa7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810144cbfd8bf983f0f501d13b65b731') in 0,001284 seconds
+  Import took 0,004523 seconds .
+
