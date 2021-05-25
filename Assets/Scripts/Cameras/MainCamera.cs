@@ -3,28 +3,32 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class MainCamera : MonoBehaviour
 {
-    private const int MOUSE_BUTTON_LEFT = 0;
-    private const int MOUSE_BUTTON_RIGHT = 1;
-    private const int MOUSE_BUTTON_MIDDLE = 2;
-
-    [Range(0, 10)]
+    public bool DraggingLock = false;
+    [Range(0, 2)]
     public float DraggingSpeed = 1;
+    public bool ApproximationLock = false;
+    [Range(0, 2)]
+    public float ApproximationSpeed = 1;
 
     private bool isOnDragging = false;
+    private Camera _MainCamera;
 
     void Start()
     {
-
+        _MainCamera = GetComponent<Camera>();
     }
 
     void Update()
     {
         CameraDragging();
+        Approximation();
     }
 
     /* Перемещение камеры мышью */
     private void CameraDragging() {
-        if (!Input.GetMouseButton(MOUSE_BUTTON_RIGHT)) {
+        if (DraggingLock) return;
+
+        if (!Input.GetMouseButton(1)) {
             isOnDragging = false;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
@@ -33,9 +37,8 @@ public class MainCamera : MonoBehaviour
 
         if (!isOnDragging) {
             isOnDragging = true;
-            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = false;
-            return;
         }
 
         Vector3 newPos = transform.position;
@@ -43,5 +46,16 @@ public class MainCamera : MonoBehaviour
         newPos.z += Input.GetAxis("Mouse Y") * DraggingSpeed;
         
         transform.position = newPos;
+    }
+
+    private void Approximation() {
+        if (ApproximationLock) return;
+
+        if (Input.mouseScrollDelta.y == 0) return;
+
+        float fov = _MainCamera.fieldOfView;
+        float newValue = fov + (Input.mouseScrollDelta.y > 0 ? -ApproximationSpeed : ApproximationSpeed);
+        fov = Mathf.Clamp(newValue, 20, 60);
+        _MainCamera.fieldOfView = fov;
     }
 }
