@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class GameplayModeFree : MonoBehaviour
+public class GameplayModeFree : GameplayMode
 {
     // Start is called before the first frame update
     void Start()

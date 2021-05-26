@@ -1,16 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class GameplayModeBuilding : MonoBehaviour
+public class GameplayModeBuilding : GameplayMode
 {
-    // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("Building mode activated");
     }
 
-    // Update is called once per frame
     void Update()
     {
         

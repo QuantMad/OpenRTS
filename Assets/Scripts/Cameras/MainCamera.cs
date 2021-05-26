@@ -48,6 +48,7 @@ public class MainCamera : MonoBehaviour
         transform.position = newPos;
     }
 
+/* TODO: Сделать честное приближение/отдаление камеры */
     private void Approximation() {
         if (ApproximationLock) return;
 

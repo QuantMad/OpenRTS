@@ -9,27 +9,24 @@ public class GameplayController : MonoBehaviour
         building = 1
     }
     public GameObject[] GameplayModes;
-    public EGameplayMode GameplayMode;
+    // Не изменять в рантайме. Вместо этого используй SwitchGameplayMode(EGameplayMode mode) 
+    public EGameplayMode GameplayMode = EGameplayMode.free;
     private GameObject _GameplayMode;
 
-    // Start is called before the first frame update
     void Start()
     {
-        int index = (int) GameplayMode;
-        _GameplayMode = Instantiate(GameplayModes[index], transform);
+        SwitchGameplayMode(GameplayMode);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
 
-    private void SwitchGameplayMode() {
+    private void SwitchGameplayMode(EGameplayMode mode) {
+        GameplayMode = mode;
         int index = (int) GameplayMode;
-        if (_GameplayMode == null) {
-            _GameplayMode = Instantiate(GameplayModes[index], transform);
-            return;
-        }
+        if (_GameplayMode != null) Destroy(_GameplayMode);
+        _GameplayMode = Instantiate(GameplayModes[index], transform);
     }
 }

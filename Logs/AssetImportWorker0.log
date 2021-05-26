@@ -13,670 +13,445 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-41383
+37765
 Successfully changed project path to: /home/quantmad/Project/Unity/OpenRTS
 /home/quantmad/Project/Unity/OpenRTS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44,83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 69,85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path /home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /home/quantmad/Project/Unity/OpenRTS/Assets
-GLX Extensions: GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_video_sync GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_ARB_multisample GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_framebuffer_sRGB GLX_NV_multisample_coverage GLX_NV_copy_image GLX_ARB_get_proc_address 
-Renderer: GeForce GT 635M/PCIe/SSE2
-Vendor:   NVIDIA Corporation
-Version:  4.5.0 NVIDIA 390.143
-GLES:     0
- GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_s
-hader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shade
-r_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_t
-exture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_onc
-e GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
- GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior G
-L_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_
-path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL
-_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 402785192
+No valid fbconfig found
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_create_context GLX_ARB_create_context_profile 
+No valid fbconfig found
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_create_context GLX_ARB_create_context_profile 
+GfxDevice: creating device client; threaded=0
+[vulkan] LoadVulkanLibrary libvulkan.so.1[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkCreateInstance
+[vulkan] Loaded instance function vkEnumerateInstanceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateInstanceLayerProperties
+[vulkan] Loaded instance function vkEnumerateInstanceVersion
+[Vulkan init] extensions: count=18
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+Xlib:  extension "NV-GLX" missing on display ":0".
+Xlib:  extension "NV-GLX" missing on display ":0".
+Xlib:  extension "NV-GLX" missing on display ":0".
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+Vulkan detection: 2
+[Vulkan init] extensions: count=18
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+Xlib:  extension "NV-GLX" missing on display ":0".
+Xlib:  extension "NV-GLX" missing on display ":0".
+Xlib:  extension "NV-GLX" missing on display ":0".
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+[vulkan] Loaded instance function vkGetDeviceProcAddr
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties
+[vulkan] Loaded instance function vkCreateDevice
+[vulkan] Loaded instance function vkEnumerateDeviceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateDeviceLayerProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties
+[vulkan] Loaded instance function vkDestroySurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceSupportKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceCapabilitiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceFormatsKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfacePresentModesKHR
+[vulkan] Loaded instance function vkCreateSwapchainKHR
+[vulkan] Loaded instance function vkDestroySwapchainKHR
+[vulkan] Loaded instance function vkGetSwapchainImagesKHR
+[vulkan] Loaded instance function vkAcquireNextImageKHR
+[vulkan] Loaded instance function vkQueuePresentKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPlanePropertiesKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneSupportedDisplaysKHR
+[vulkan] Loaded instance function vkGetDisplayModePropertiesKHR
+[vulkan] Loaded instance function vkCreateDisplayModeKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneCapabilitiesKHR
+[vulkan] Loaded instance function vkCreateDisplayPlaneSurfaceKHR
+[vulkan] Loaded instance function vkCreateSharedSwapchainsKHR
+[vulkan] Loaded instance function vkCreateXlibSurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceXlibPresentationSupportKHR
+[vulkan] Loaded instance function vkSetHdrMetadataEXT
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+[Vulkan init] Physical Device 0x558c5566dda0 [0]: "Intel(R) HD Graphics 4000 (IVB GT2)" deviceType=1 vendorID=8086 deviceID=166
+[Vulkan init] Physical Device 0x558c5566dee0 [1]: "llvmpipe (LLVM 12.0.0, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
+[Vulkan init] Physical Device 0x558c5566ddc0 [2]: "Intel(R) HD Graphics 4000 (IVB GT2)" deviceType=1 vendorID=8086 deviceID=166
+[Vulkan init] Physical Device 0x558c5566dde0 [3]: "llvmpipe (LLVM 12.0.0, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
+[Vulkan init] Physical Device 0x558c5566de00 [4]: "Intel(R) HD Graphics 4000 (IVB GT2)" deviceType=1 vendorID=8086 deviceID=166
+[Vulkan init] Physical Device 0x558c5566de20 [5]: "llvmpipe (LLVM 12.0.0, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
+[Vulkan init] Selected physical device 0x558c5566dda0
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=83
+[Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation, enabled=1
+[Vulkan init] extensions: name=VK_KHR_deferred_host_operations, enabled=0
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve, enabled=1
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template, enabled=1
+[Vulkan init] extensions: name=VK_KHR_device_group, enabled=0
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count, enabled=0
+[Vulkan init] extensions: name=VK_KHR_driver_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
+[Vulkan init] extensions: name=VK_KHR_incremental_present, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
+[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge, enabled=1
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_clock, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class, enabled=0
+[Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format, enabled=0
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model, enabled=0
+[Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory, enabled=0
+[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_EXT_color_write_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_dma_buf, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
+[Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_drm_format_modifier, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
+[Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
+[Vulkan init] extensions: name=VK_EXT_provoking_vertex, enabled=0
+[Vulkan init] extensions: name=VK_EXT_queue_family_foreign, enabled=0
+[Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=1
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
+[Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
+[Vulkan init] extensions: name=VK_GOOGLE_decorate_string, enabled=0
+[Vulkan init] extensions: name=VK_GOOGLE_hlsl_functionality1, enabled=0
+[Vulkan init] extensions: name=VK_GOOGLE_user_type, enabled=0
+[Vulkan init] extensions: name=VK_NV_compute_shader_derivatives, enabled=0
+[vulkan] Loaded device function vkDestroyDevice
+[vulkan] Loaded device function vkGetDeviceQueue
+[vulkan] Loaded device function vkQueueSubmit
+[vulkan] Loaded device function vkQueueWaitIdle
+[vulkan] Loaded device function vkDeviceWaitIdle
+[vulkan] Loaded device function vkAllocateMemory
+[vulkan] Loaded device function vkFreeMemory
+[vulkan] Loaded device function vkMapMemory
+[vulkan] Loaded device function vkUnmapMemory
+[vulkan] Loaded device function vkFlushMappedMemoryRanges
+[vulkan] Loaded device function vkInvalidateMappedMemoryRanges
+[vulkan] Loaded device function vkGetDeviceMemoryCommitment
+[vulkan] Loaded device function vkBindBufferMemory
+[vulkan] Loaded device function vkBindImageMemory
+[vulkan] Loaded device function vkGetBufferMemoryRequirements
+[vulkan] Loaded device function vkGetImageMemoryRequirements
+[vulkan] Loaded device function vkGetImageSparseMemoryRequirements
+[vulkan] Loaded device function vkQueueBindSparse
+[vulkan] Loaded device function vkCreateFence
+[vulkan] Loaded device function vkDestroyFence
+[vulkan] Loaded device function vkResetFences
+[vulkan] Loaded device function vkGetFenceStatus
+[vulkan] Loaded device function vkWaitForFences
+[vulkan] Loaded device function vkCreateSemaphore
+[vulkan] Loaded device function vkDestroySemaphore
+[vulkan] Loaded device function vkCreateEvent
+[vulkan] Loaded device function vkDestroyEvent
+[vulkan] Loaded device function vkGetEventStatus
+[vulkan] Loaded device function vkSetEvent
+[vulkan] Loaded device function vkResetEvent
+[vulkan] Loaded device function vkCreateQueryPool
+[vulkan] Loaded device function vkDestroyQueryPool
+[vulkan] Loaded device function vkGetQueryPoolResults
+[vulkan] Loaded device function vkCreateBuffer
+[vulkan] Loaded device function vkDestroyBuffer
+[vulkan] Loaded device function vkCreateBufferView
+[vulkan] Loaded device function vkDestroyBufferView
+[vulkan] Loaded device function vkCreateImage
+[vulkan] Loaded device function vkDestroyImage
+[vulkan] Loaded device function vkGetImageSubresourceLayout
+[vulkan] Loaded device function vkCreateImageView
+[vulkan] Loaded device function vkDestroyImageView
+[vulkan] Loaded device function vkCreateShaderModule
+[vulkan] Loaded device function vkDestroyShaderModule
+[vulkan] Loaded device function vkCreatePipelineCache
+[vulkan] Loaded device function vkDestroyPipelineCache
+[vulkan] Loaded device function vkGetPipelineCacheData
+[vulkan] Loaded device function vkMergePipelineCaches
+[vulkan] Loaded device function vkCreateGraphicsPipelines
+[vulkan] Loaded device function vkCreateComputePipelines
+[vulkan] Loaded device function vkDestroyPipeline
+[vulkan] Loaded device function vkCreatePipelineLayout
+[vulkan] Loaded device function vkDestroyPipelineLayout
+[vulkan] Loaded device function vkCreateSampler
+[vulkan] Loaded device function vkDestroySampler
+[vulkan] Loaded device function vkCreateDescriptorSetLayout
+[vulkan] Loaded device function vkDestroyDescriptorSetLayout
+[vulkan] Loaded device function vkCreateDescriptorPool
+[vulkan] Loaded device function vkDestroyDescriptorPool
+[vulkan] Loaded device function vkResetDescriptorPool
+[vulkan] Loaded device function vkAllocateDescriptorSets
+[vulkan] Loaded device function vkFreeDescriptorSets
+[vulkan] Loaded device function vkUpdateDescriptorSets
+[vulkan] Loaded device function vkCreateFramebuffer
+[vulkan] Loaded device function vkDestroyFramebuffer
+[vulkan] Loaded device function vkCreateRenderPass
+[vulkan] Loaded device function vkDestroyRenderPass
+[vulkan] Loaded device function vkGetRenderAreaGranularity
+[vulkan] Loaded device function vkCreateCommandPool
+[vulkan] Loaded device function vkDestroyCommandPool
+[vulkan] Loaded device function vkResetCommandPool
+[vulkan] Loaded device function vkAllocateCommandBuffers
+[vulkan] Loaded device function vkFreeCommandBuffers
+[vulkan] Loaded device function vkBeginCommandBuffer
+[vulkan] Loaded device function vkEndCommandBuffer
+[vulkan] Loaded device function vkResetCommandBuffer
+[vulkan] Loaded device function vkCmdBindPipeline
+[vulkan] Loaded device function vkCmdSetViewport
+[vulkan] Loaded device function vkCmdSetScissor
+[vulkan] Loaded device function vkCmdSetLineWidth
+[vulkan] Loaded device function vkCmdSetDepthBias
+[vulkan] Loaded device function vkCmdSetBlendConstants
+[vulkan] Loaded device function vkCmdSetDepthBounds
+[vulkan] Loaded device function vkCmdSetStencilCompareMask
+[vulkan] Loaded device function vkCmdSetStencilWriteMask
+[vulkan] Loaded device function vkCmdSetStencilReference
+[vulkan] Loaded device function vkCmdBindDescriptorSets
+[vulkan] Loaded device function vkCmdBindIndexBuffer
+[vulkan] Loaded device function vkCmdBindVertexBuffers
+[vulkan] Loaded device function vkCmdDraw
+[vulkan] Loaded device function vkCmdDrawIndexed
+[vulkan] Loaded device function vkCmdDrawIndirect
+[vulkan] Loaded device function vkCmdDrawIndexedIndirect
+[vulkan] Loaded device function vkCmdDispatch
+[vulkan] Loaded device function vkCmdDispatchIndirect
+[vulkan] Loaded device function vkCmdCopyBuffer
+[vulkan] Loaded device function vkCmdCopyImage
+[vulkan] Loaded device function vkCmdBlitImage
+[vulkan] Loaded device function vkCmdCopyBufferToImage
+[vulkan] Loaded device function vkCmdCopyImageToBuffer
+[vulkan] Loaded device function vkCmdUpdateBuffer
+[vulkan] Loaded device function vkCmdFillBuffer
+[vulkan] Loaded device function vkCmdClearColorImage
+[vulkan] Loaded device function vkCmdClearDepthStencilImage
+[vulkan] Loaded device function vkCmdClearAttachments
+[vulkan] Loaded device function vkCmdResolveImage
+[vulkan] Loaded device function vkCmdSetEvent
+[vulkan] Loaded device function vkCmdResetEvent
+[vulkan] Loaded device function vkCmdWaitEvents
+[vulkan] Loaded device function vkCmdPipelineBarrier
+[vulkan] Loaded device function vkCmdBeginQuery
+[vulkan] Loaded device function vkCmdEndQuery
+[vulkan] Loaded device function vkCmdResetQueryPool
+[vulkan] Loaded device function vkCmdWriteTimestamp
+[vulkan] Loaded device function vkCmdCopyQueryPoolResults
+[vulkan] Loaded device function vkCmdPushConstants
+[vulkan] Loaded device function vkCmdBeginRenderPass
+[vulkan] Loaded device function vkCmdNextSubpass
+[vulkan] Loaded device function vkCmdEndRenderPass
+[vulkan] Loaded device function vkCmdExecuteCommands
+[vulkan] Loaded device function vkGetImageMemoryRequirements2KHR
+[vulkan] Loaded device function vkGetBufferMemoryRequirements2KHR
+[vulkan] Loaded device function vkGetImageSparseMemoryRequirements2KHR
+[vulkan] Loaded device function vkCreateDescriptorUpdateTemplateKHR
+[vulkan] Loaded device function vkDestroyDescriptorUpdateTemplateKHR
+[vulkan] Loaded device function vkUpdateDescriptorSetWithTemplateKHR
+[vulkan] Loaded device function vkCmdBeginRenderPass2KHR
+[vulkan] Loaded device function vkCmdEndRenderPass2KHR
+[vulkan] Loaded device function vkCmdNextSubpass2KHR
+[vulkan] Loaded device function vkCreateRenderPass2KHR
+[vulkan] Failed to load device function vkDebugMarkerSetObjectTagEXT
+[vulkan] Loaded instance function vkDebugMarkerSetObjectTagEXT
+[vulkan] Failed to load device function vkDebugMarkerSetObjectNameEXT
+[vulkan] Loaded instance function vkDebugMarkerSetObjectNameEXT
+[vulkan] Failed to load device function vkCmdDebugMarkerBeginEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerBeginEXT
+[vulkan] Failed to load device function vkCmdDebugMarkerEndEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerEndEXT
+[vulkan] Failed to load device function vkCmdDebugMarkerInsertEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerInsertEXT
+Vulkan API version 1.1.0 (1.2.177 supported by driver, 1.1.0 requested)
+Vulkan vendor=[Intel] id=[8086]
+Vulkan renderer=[Intel(R) HD Graphics 4000 (IVB GT2)] id=[166]
+Vulkan device type 1
+Vulkan driverversion=[0x05401063] uint=[88084579]
+Vulkan PSO: cache data not found [path=/tmp/DefaultCompany/OpenRTS/vulkan_pso_cache.bin]
 Initialize mono
 Mono path[0] = '/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = '/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,002933 seconds.
+Registered in 0,003587 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51,86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 60,13 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2,651 seconds
+- Completed reload, in  2,913 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,000755 seconds.
+Registered in 0,000811 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,735 seconds
+- Completed reload, in  1,962 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1563.
-Total: 4,098834 ms (FindLiveObjects: 0,262414 ms CreateObjectMapping: 0,094519 ms MarkObjects: 3,516496 ms  DeleteObjects: 0,222640 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24322913a1e2ebf591d0b69114baf9ad') in 0,061932 seconds
-  Import took 0,065659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000552 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc5ab5011a94e283c5d49b0d3f8d820') in 0,003216 seconds
-  Import took 0,005869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20,532377 seconds.
-  path: Assets/Scripts/Cameras/MainCamera.cs
-  artifactKey: Guid(7e1b88d39c1808a5eaa7d63941f34ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Cameras/MainCamera.cs using Guid(7e1b88d39c1808a5eaa7d63941f34ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3a12d8338f69f9dff7b80d7e2b0042') in 0,001134 seconds
-  Import took 0,003976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,010284 seconds.
-  path: Assets/Scripts/Cameras/MainCamera.cs
-  artifactKey: Guid(7e1b88d39c1808a5eaa7d63941f34ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Cameras/MainCamera.cs using Guid(7e1b88d39c1808a5eaa7d63941f34ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3a12d8338f69f9dff7b80d7e2b0042') in 0,001114 seconds
-  Import took 0,004203 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000876 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,641 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1566.
-Total: 4,767868 ms (FindLiveObjects: 0,297636 ms CreateObjectMapping: 0,164530 ms MarkObjects: 4,191544 ms  DeleteObjects: 0,111092 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 38,355107 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ea99bbb5767d286ba2a1f9d21faa47') in 0,047015 seconds
-  Import took 0,052008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,024385 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8a3e827a1c945a11cd6d3c1c52a04d') in 0,004067 seconds
-  Import took 0,007484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6,229094 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdb0698127ed93eaab63bd9bf47a29b') in 0,006089 seconds
-  Import took 0,011025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,054495 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46ed21dc97112718d360d1920a5de9a') in 0,005052 seconds
-  Import took 0,009832 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000895 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,592 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1569.
-Total: 5,772186 ms (FindLiveObjects: 0,456737 ms CreateObjectMapping: 0,155057 ms MarkObjects: 5,029238 ms  DeleteObjects: 0,127340 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000853 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,797 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56,5 MB.
+System memory in use after: 56,6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1572.
-Total: 3,407149 ms (FindLiveObjects: 0,197508 ms CreateObjectMapping: 0,068456 ms MarkObjects: 3,060032 ms  DeleteObjects: 0,078844 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001234 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,626 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1575.
-Total: 3,480392 ms (FindLiveObjects: 0,197595 ms CreateObjectMapping: 0,075508 ms MarkObjects: 3,124986 ms  DeleteObjects: 0,079388 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001155 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,641 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1578.
-Total: 4,237854 ms (FindLiveObjects: 0,462887 ms CreateObjectMapping: 0,100921 ms MarkObjects: 3,583436 ms  DeleteObjects: 0,087595 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001233 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,607 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1581.
-Total: 6,738149 ms (FindLiveObjects: 0,208809 ms CreateObjectMapping: 0,071467 ms MarkObjects: 6,341033 ms  DeleteObjects: 0,112778 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001210 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,647 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1584.
-Total: 3,495548 ms (FindLiveObjects: 0,219430 ms CreateObjectMapping: 0,067744 ms MarkObjects: 3,124729 ms  DeleteObjects: 0,080710 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000777 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,656 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1587.
-Total: 4,133604 ms (FindLiveObjects: 0,378519 ms CreateObjectMapping: 0,112241 ms MarkObjects: 3,515780 ms  DeleteObjects: 0,123423 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000793 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,665 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1590.
-Total: 4,120688 ms (FindLiveObjects: 0,204501 ms CreateObjectMapping: 0,068334 ms MarkObjects: 3,738178 ms  DeleteObjects: 0,106312 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000780 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,663 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,6 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1593.
-Total: 3,738159 ms (FindLiveObjects: 0,233258 ms CreateObjectMapping: 0,130622 ms MarkObjects: 3,290581 ms  DeleteObjects: 0,079957 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000903 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,617 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1596.
-Total: 4,486508 ms (FindLiveObjects: 0,380424 ms CreateObjectMapping: 0,098844 ms MarkObjects: 3,918430 ms  DeleteObjects: 0,085216 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000785 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,668 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
-Total: 4,918179 ms (FindLiveObjects: 0,241955 ms CreateObjectMapping: 0,074980 ms MarkObjects: 4,498535 ms  DeleteObjects: 0,099343 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000775 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,638 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1602.
-Total: 3,455688 ms (FindLiveObjects: 0,203139 ms CreateObjectMapping: 0,067022 ms MarkObjects: 3,093833 ms  DeleteObjects: 0,088674 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000758 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,624 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1605.
-Total: 6,602165 ms (FindLiveObjects: 0,218329 ms CreateObjectMapping: 0,071476 ms MarkObjects: 6,217971 ms  DeleteObjects: 0,090970 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1575.
+Total: 4,645653 ms (FindLiveObjects: 0,204073 ms CreateObjectMapping: 0,107768 ms MarkObjects: 4,026851 ms  DeleteObjects: 0,304501 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1188,193152 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b691c22f36e4bab70b23ece6880cc1') in 0,073852 seconds
-  Import took 0,078543 seconds .
+  path: Assets/Prefabs/Databases/[DATABASES].prefab
+  artifactKey: Guid(edde904e603b7bba58f3614dc7ec0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Databases/[DATABASES].prefab using Guid(edde904e603b7bba58f3614dc7ec0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d86c0aa21ae02207ca572d174fe794') in 0,062325 seconds
+  Import took 0,066459 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000259 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caed85be7ba200eef61683a25c5bf0ff') in 0,003416 seconds
-  Import took 0,006812 seconds .
+  Time since last request: 0,000485 seconds.
+  path: Assets/Prefabs/Databases/Buildings Database.prefab
+  artifactKey: Guid(ecd3bd4c4f0706d95988c0940db351aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Databases/Buildings Database.prefab using Guid(ecd3bd4c4f0706d95988c0940db351aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027921a4cfce0ccb6cc970b810aec7e5') in 0,004052 seconds
+  Import took 0,007285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17,244240 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8933fdfd68bbb33fac36208264ca5f') in 0,005652 seconds
-  Import took 0,010662 seconds .
+  Time since last request: 13,541803 seconds.
+  path: Assets/Prefabs/Databases/Database Buildings.prefab
+  artifactKey: Guid(ecd3bd4c4f0706d95988c0940db351aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Databases/Database Buildings.prefab using Guid(ecd3bd4c4f0706d95988c0940db351aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ec022951948b44709f73e53b9b6a81') in 0,004684 seconds
+  Import took 0,008751 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000333 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e329448c564e2c30cbb7e4ac6b7592d8') in 0,006164 seconds
-  Import took 0,012019 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001206 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,635 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1608.
-Total: 5,158076 ms (FindLiveObjects: 0,263983 ms CreateObjectMapping: 0,101034 ms MarkObjects: 4,659423 ms  DeleteObjects: 0,130040 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000926 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,668 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
-Total: 4,025093 ms (FindLiveObjects: 0,229194 ms CreateObjectMapping: 0,080747 ms MarkObjects: 3,602154 ms  DeleteObjects: 0,110070 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000947 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,656 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1614.
-Total: 3,527485 ms (FindLiveObjects: 0,250860 ms CreateObjectMapping: 0,068059 ms MarkObjects: 3,121937 ms  DeleteObjects: 0,083935 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001222 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,676 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1617.
-Total: 4,469184 ms (FindLiveObjects: 0,377362 ms CreateObjectMapping: 0,097047 ms MarkObjects: 3,905585 ms  DeleteObjects: 0,086320 ms)
+  Time since last request: 0,037649 seconds.
+  path: Assets/Prefabs/Databases/[DATABASES].prefab
+  artifactKey: Guid(edde904e603b7bba58f3614dc7ec0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Databases/[DATABASES].prefab using Guid(edde904e603b7bba58f3614dc7ec0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7147be887f00938707a570f419709b4e') in 0,003666 seconds
+  Import took 0,007966 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 457,308376 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(9ebac1cca52d5140bb26261f411aa7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(9ebac1cca52d5140bb26261f411aa7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810144cbfd8bf983f0f501d13b65b731') in 0,004749 seconds
-  Import took 0,008315 seconds .
+  Time since last request: 30,734735 seconds.
+  path: Assets/Prefabs/Databases/[DATABASES].prefab
+  artifactKey: Guid(edde904e603b7bba58f3614dc7ec0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Databases/[DATABASES].prefab using Guid(edde904e603b7bba58f3614dc7ec0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b0fc232c49323f595b9b41bdfc342c') in 0,007404 seconds
+  Import took 0,012556 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,035096 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(9ebac1cca52d5140bb26261f411aa7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(9ebac1cca52d5140bb26261f411aa7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810144cbfd8bf983f0f501d13b65b731') in 0,001284 seconds
-  Import took 0,004523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1530,110570 seconds.
-  path: Assets/Models
-  artifactKey: Guid(7f6e0bb5d0143bab1ac5818cf373f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(7f6e0bb5d0143bab1ac5818cf373f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6384cc68f16bbbb043e1269f2229c2') in 0,004052 seconds
-  Import took 0,008795 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000847 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,657 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1620.
-Total: 5,958794 ms (FindLiveObjects: 0,491689 ms CreateObjectMapping: 0,137180 ms MarkObjects: 5,212519 ms  DeleteObjects: 0,113440 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000760 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,646 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1623.
-Total: 3,905401 ms (FindLiveObjects: 0,217900 ms CreateObjectMapping: 0,068023 ms MarkObjects: 3,532744 ms  DeleteObjects: 0,083383 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000876 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,675 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1626.
-Total: 3,401582 ms (FindLiveObjects: 0,201731 ms CreateObjectMapping: 0,068477 ms MarkObjects: 3,049371 ms  DeleteObjects: 0,079284 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000758 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,667 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,7 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1629.
-Total: 4,317775 ms (FindLiveObjects: 0,366235 ms CreateObjectMapping: 0,099468 ms MarkObjects: 3,759367 ms  DeleteObjects: 0,089745 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000863 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,650 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1632.
-Total: 3,625108 ms (FindLiveObjects: 0,205935 ms CreateObjectMapping: 0,067198 ms MarkObjects: 3,262164 ms  DeleteObjects: 0,087022 ms)
+  Time since last request: 50,531099 seconds.
+  path: Assets/Prefabs/Databases/[DATABASES].prefab
+  artifactKey: Guid(edde904e603b7bba58f3614dc7ec0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Databases/[DATABASES].prefab using Guid(edde904e603b7bba58f3614dc7ec0b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913dfd7fb792dbf7f2c3a463e2598b35') in 0,007230 seconds
+  Import took 0,013218 seconds .
 
 ========================================================================
 Received Prepare
@@ -685,591 +460,81 @@ Registered in 0,000802 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,668 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1635.
-Total: 4,652782 ms (FindLiveObjects: 0,266333 ms CreateObjectMapping: 0,092358 ms MarkObjects: 4,186150 ms  DeleteObjects: 0,104663 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001207 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,730 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1638.
-Total: 5,232354 ms (FindLiveObjects: 0,335997 ms CreateObjectMapping: 0,074928 ms MarkObjects: 4,668978 ms  DeleteObjects: 0,146682 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000860 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,643 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1641.
-Total: 4,853779 ms (FindLiveObjects: 0,307530 ms CreateObjectMapping: 0,097355 ms MarkObjects: 4,326081 ms  DeleteObjects: 0,119308 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000833 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,692 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1644.
-Total: 5,613899 ms (FindLiveObjects: 0,471387 ms CreateObjectMapping: 0,105092 ms MarkObjects: 4,907710 ms  DeleteObjects: 0,125601 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000779 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,787 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1647.
-Total: 5,970195 ms (FindLiveObjects: 0,251052 ms CreateObjectMapping: 0,093079 ms MarkObjects: 5,491633 ms  DeleteObjects: 0,130891 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 933,004392 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72222f091c08df3b5452c5c559e4ad5d') in 0,047431 seconds
-  Import took 0,052429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000347 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469394a683bdf4de8c864911a2c58b93') in 0,008101 seconds
-  Import took 0,012932 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000970 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,747 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1650.
-Total: 5,106618 ms (FindLiveObjects: 0,428407 ms CreateObjectMapping: 0,104394 ms MarkObjects: 4,457601 ms  DeleteObjects: 0,112843 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 58,476697 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6414708efddb9ba0720f18d15bd75873') in 0,066603 seconds
-  Import took 0,070650 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000758 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,749 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1653.
-Total: 3,683906 ms (FindLiveObjects: 0,258461 ms CreateObjectMapping: 0,075390 ms MarkObjects: 3,259643 ms  DeleteObjects: 0,084166 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 25,169620 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1369aef05cc12e7031c796008b28820f') in 0,049825 seconds
-  Import took 0,053016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000223 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5088c3257cb4f6e8990ad5be1c04cfb') in 0,003883 seconds
-  Import took 0,007327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2,139318 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5088c3257cb4f6e8990ad5be1c04cfb') in 0,003270 seconds
-  Import took 0,006448 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000775 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,737 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1656.
-Total: 5,157009 ms (FindLiveObjects: 0,352317 ms CreateObjectMapping: 0,094525 ms MarkObjects: 4,589610 ms  DeleteObjects: 0,117239 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 29,788542 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7dbaa268f7f09715afffe2535ecefe') in 0,047214 seconds
-  Import took 0,051097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000438 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6179312f6d0bb2326a940dc23e82a276') in 0,004160 seconds
-  Import took 0,007431 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000801 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,699 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1659.
-Total: 5,733082 ms (FindLiveObjects: 0,455769 ms CreateObjectMapping: 0,112800 ms MarkObjects: 5,048361 ms  DeleteObjects: 0,113373 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000838 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,691 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
-Total: 3,708789 ms (FindLiveObjects: 0,247956 ms CreateObjectMapping: 0,067285 ms MarkObjects: 3,305977 ms  DeleteObjects: 0,084739 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000815 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,654 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1665.
-Total: 4,538869 ms (FindLiveObjects: 0,383551 ms CreateObjectMapping: 0,098091 ms MarkObjects: 3,969296 ms  DeleteObjects: 0,084592 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001014 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,732 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
-Total: 4,237156 ms (FindLiveObjects: 0,229205 ms CreateObjectMapping: 0,078498 ms MarkObjects: 3,825460 ms  DeleteObjects: 0,100683 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000845 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,764 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1671.
-Total: 5,322947 ms (FindLiveObjects: 0,351097 ms CreateObjectMapping: 0,076544 ms MarkObjects: 4,793303 ms  DeleteObjects: 0,099250 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000884 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,747 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1674.
-Total: 5,161847 ms (FindLiveObjects: 0,297505 ms CreateObjectMapping: 0,111121 ms MarkObjects: 4,631485 ms  DeleteObjects: 0,118577 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001210 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,709 seconds
+- Completed reload, in  1,881 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1677.
-Total: 5,519948 ms (FindLiveObjects: 0,297753 ms CreateObjectMapping: 0,099385 ms MarkObjects: 4,988068 ms  DeleteObjects: 0,130344 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 511,274695 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a2f5bc2b44b85348dbb1733aba9b19') in 0,048571 seconds
-  Import took 0,052277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000374 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7033b64201ee15deb813fc64db153f40') in 0,003314 seconds
-  Import took 0,006679 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,001171 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,662 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1680.
-Total: 5,459444 ms (FindLiveObjects: 0,339830 ms CreateObjectMapping: 0,085558 ms MarkObjects: 4,932703 ms  DeleteObjects: 0,097205 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 54,062975 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffc8b7a9b8b37de7367230199271fb3') in 0,048291 seconds
-  Import took 0,051921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000276 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae72ab6a49761321a9e6507b4d6a3da') in 0,004092 seconds
-  Import took 0,007471 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000762 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,659 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1683.
-Total: 6,764230 ms (FindLiveObjects: 0,264275 ms CreateObjectMapping: 0,068643 ms MarkObjects: 6,346243 ms  DeleteObjects: 0,081545 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000804 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,710 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56,6 MB.
+System memory in use after: 56,7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1686.
-Total: 4,236489 ms (FindLiveObjects: 0,359292 ms CreateObjectMapping: 0,130302 ms MarkObjects: 3,659516 ms  DeleteObjects: 0,084491 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 110,606150 seconds.
-  path: Assets/Prefabs/Cameras/Main Camera.prefab
-  artifactKey: Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(78ff65d057512d2a3816f2e131a33ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fca956df364b02478762914c19c1a23') in 0,049615 seconds
-  Import took 0,054471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,023195 seconds.
-  path: Assets/Prefabs/Cameras/[CAMERAS].prefab
-  artifactKey: Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cameras/[CAMERAS].prefab using Guid(8518f50ef3099ee28980123f4acd95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4c5817bb5f5179980e4fb37b34c1ec') in 0,004140 seconds
-  Import took 0,007576 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 3,725660 ms (FindLiveObjects: 0,199188 ms CreateObjectMapping: 0,073038 ms MarkObjects: 3,320226 ms  DeleteObjects: 0,130380 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,001260 seconds.
+Registered in 0,001555 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,669 seconds
+- Completed reload, in  2,449 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56,7 MB.
+System memory in use after: 56,8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1689.
-Total: 5,353704 ms (FindLiveObjects: 0,290890 ms CreateObjectMapping: 0,093432 ms MarkObjects: 4,843956 ms  DeleteObjects: 0,121573 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1581.
+Total: 8,797803 ms (FindLiveObjects: 0,545599 ms CreateObjectMapping: 0,091169 ms MarkObjects: 8,029070 ms  DeleteObjects: 0,125068 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,001087 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,688 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,8 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1692.
-Total: 4,085945 ms (FindLiveObjects: 0,248284 ms CreateObjectMapping: 0,075908 ms MarkObjects: 3,672608 ms  DeleteObjects: 0,086039 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000843 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,706 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,9 MB.
-System memory in use after: 51,9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
-Total: 3,479728 ms (FindLiveObjects: 0,217182 ms CreateObjectMapping: 0,069391 ms MarkObjects: 3,107300 ms  DeleteObjects: 0,082824 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,000933 seconds.
+Registered in 0,000951 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,710 seconds
+- Completed reload, in  2,092 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,9 MB.
-System memory in use after: 51,9 MB.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56,8 MB.
+System memory in use after: 56,9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1698.
-Total: 4,398716 ms (FindLiveObjects: 0,284030 ms CreateObjectMapping: 0,071419 ms MarkObjects: 3,948815 ms  DeleteObjects: 0,091409 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 5,571185 ms (FindLiveObjects: 0,438082 ms CreateObjectMapping: 0,124316 ms MarkObjects: 4,795055 ms  DeleteObjects: 0,210135 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,001274 seconds.
+Registered in 0,001272 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,698 seconds
+- Completed reload, in  1,989 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 51,9 MB.
-System memory in use after: 51,9 MB.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56,9 MB.
+System memory in use after: 57,0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1701.
-Total: 4,933765 ms (FindLiveObjects: 0,373639 ms CreateObjectMapping: 0,090988 ms MarkObjects: 4,355918 ms  DeleteObjects: 0,110372 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1587.
+Total: 6,444724 ms (FindLiveObjects: 0,764480 ms CreateObjectMapping: 0,213658 ms MarkObjects: 5,337423 ms  DeleteObjects: 0,124789 ms)
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
