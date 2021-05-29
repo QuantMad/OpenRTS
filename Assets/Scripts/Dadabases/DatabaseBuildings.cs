@@ -13,5 +13,13 @@ namespace OpenRTS.Assets.Scripts.Dadabases
         {
             
         }
+
+        public string GetName() {
+            return "Building database finded";
+        }
+        
+        public GameObject[] GetRecords() {
+            return null;
+        }
     }
 }

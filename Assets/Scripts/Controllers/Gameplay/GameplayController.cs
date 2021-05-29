@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameplayController : MonoBehaviour
@@ -8,9 +6,11 @@ public class GameplayController : MonoBehaviour
         free = 0,
         building = 1
     }
+    
     public GameObject[] GameplayModes;
-    // Не изменять в рантайме. Вместо этого используй SwitchGameplayMode(EGameplayMode mode) 
-    public EGameplayMode GameplayMode = EGameplayMode.free;
+
+    [SerializeField]
+    private EGameplayMode GameplayMode = EGameplayMode.free;
     private GameObject _GameplayMode;
 
     void Start()

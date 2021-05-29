@@ -1,6 +1,6 @@
 namespace OpenRTS.Assets.Scripts.Buildings
 {
-    public class Engineering : Building
+    public abstract class Engineering : Building
     {
         
     }

@@ -1,15 +1,14 @@
-using System.Xml.Serialization;
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 namespace OpenRTS.Assets.Scripts.Buildings
 {
-    [XmlRootAttribute()]
+    [Serializable]
     public abstract class Building : MonoBehaviour
     {
         [SerializeField]
         public string Name = "Undefined";
+
         // Start is called before the first frame update
         void Start()
         {
@@ -21,5 +20,7 @@ namespace OpenRTS.Assets.Scripts.Buildings
         {
             
         }
+
+        public abstract bool Export(string path);
     }
 }
