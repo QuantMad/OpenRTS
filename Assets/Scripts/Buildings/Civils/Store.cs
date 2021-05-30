@@ -1,4 +1,4 @@
-namespace OpenRTS.Assets.Scripts.Buildings.Civils
+namespace Buildings.Civils
 {
     public class Store : Civil
     {

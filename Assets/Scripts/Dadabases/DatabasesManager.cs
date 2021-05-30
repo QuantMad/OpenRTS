@@ -1,5 +1,6 @@
 using UnityEngine;
-namespace OpenRTS.Assets.Scripts.Dadabases
+
+namespace Dadabases
 {
     public class DatabasesManager : MonoBehaviour {
         public bool TryGetDataBase<T>(out IDataBase dbase) where T : IDataBase {  

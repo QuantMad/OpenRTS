@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Assembly_CSharp.Assets.Scripts.BuildingsProperties
+namespace BuildingsProperties
 {
     [Serializable]
     public class BuildingProperties 

@@ -1,6 +1,6 @@
 using System;
 
-namespace Assembly_CSharp.Assets.Scripts.BuildingsProperties
+namespace BuildingsProperties
 {
     [Serializable]
     public class CivilProperties : BuildingProperties
@@ -10,6 +10,7 @@ namespace Assembly_CSharp.Assets.Scripts.BuildingsProperties
         }
         public CivilProperties(string name, int cost) : base(name, cost)
         {
+            
         }
     }
 }

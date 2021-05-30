@@ -1,8 +1,6 @@
-using System.IO;
-using OpenRTS.Assets.Scripts.Buildings.Civils;
 using UnityEngine;
 
-namespace OpenRTS.Assets.Scripts.Dadabases
+namespace Dadabases
 {
     public class DatabaseBuildings : MonoBehaviour, IDataBase
     {

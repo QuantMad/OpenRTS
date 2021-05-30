@@ -1,9 +1,8 @@
 using System;
-using System.IO;
-using Assembly_CSharp.Assets.Scripts.BuildingsProperties;
+using BuildingsProperties.Civils;
 using UnityEngine;
 
-namespace OpenRTS.Assets.Scripts.Buildings.Civils
+namespace Buildings.Civils
 {
     [Serializable]
     public class House : Civil
@@ -19,14 +18,10 @@ namespace OpenRTS.Assets.Scripts.Buildings.Civils
             _BuildingData = new HouseProperties();
         }
 
-        public override void ExportProperties(string path)
+        /*public override void ExportProperties(string path)
         {
             string json = JsonUtility.ToJson(HouseData);
             File.WriteAllText(path, json);
-        }
-
-        public void Import(House house) {
-
-        }
+        }*/
     }
 }

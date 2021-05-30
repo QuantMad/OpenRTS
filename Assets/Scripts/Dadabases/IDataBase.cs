@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace OpenRTS.Assets.Scripts.Dadabases
+namespace Dadabases
 {
     public interface IDataBase
     {

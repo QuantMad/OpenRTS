@@ -1,4 +1,4 @@
-namespace OpenRTS.Assets.Scripts.Buildings.Industrials
+namespace Buildings.Industrials
 {
     public class Factory : Industrial
     {

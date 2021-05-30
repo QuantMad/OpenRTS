@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public class GameplayModeFree : GameplayMode
+namespace Controllers.Gameplay.GameplayModes 
 {
-    // Start is called before the first frame update
-    void Start()
+    public class GameplayModeFree : GameplayMode
     {
-        Debug.Log("Free mode activated");
-    }
+        // Start is called before the first frame update
+        void Start()
+        {
+            Debug.Log("Free mode activated");
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Update is called once per frame
+        void Update()
+        {
+            
+        }
     }
 }

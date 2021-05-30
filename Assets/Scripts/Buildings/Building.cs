@@ -1,9 +1,7 @@
-using System;
-using System.IO;
-using Assembly_CSharp.Assets.Scripts.BuildingsProperties;
+using BuildingsProperties;
 using UnityEngine;
 
-namespace OpenRTS.Assets.Scripts.Buildings
+namespace Buildings
 {
     public abstract class Building : MonoBehaviour
     {
@@ -28,9 +26,9 @@ namespace OpenRTS.Assets.Scripts.Buildings
             
         }
 
-        public virtual void ExportProperties(string path) {
+        /*public virtual void ExportProperties(string path) {
             string json = JsonUtility.ToJson(_BuildingData);
             File.WriteAllText(path, json);
-        }
+        }*/
     }
 }

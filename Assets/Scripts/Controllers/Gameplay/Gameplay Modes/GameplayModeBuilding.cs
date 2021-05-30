@@ -1,20 +1,27 @@
-using UnityEngine;
-using OpenRTS.Assets.Scripts.Dadabases;
+using Dadabases;
 
-public class GameplayModeBuilding : GameplayMode
+namespace Controllers.Gameplay.GameplayModes 
 {
-    private IDataBase _DatabaseBuildings = null;
-    void Start()
+    public class GameplayModeBuilding : GameplayMode
     {
-        _IsAllNormal = CallDatabase<DatabaseBuildings>(out _DatabaseBuildings);
-    }
+        private IDataBase _DatabaseBuildings = null;
+        void Start()
+        {
+            //_IsAllNormal = CallDatabase<DatabaseBuildings>(out _DatabaseBuildings);
+        }
 
-    void Update()
-    {
-        
-    }
+        /*private bool CallDatabase<T>(out IDataBase databaseBuildings)
+        {
+            throw new NotImplementedException();
+        }*/
 
-    private void GetBuildingsDatabase() {
-        
+        void Update()
+        {
+            
+        }
+
+        private void GetBuildingsDatabase() {
+            
+        }
     }
 }
