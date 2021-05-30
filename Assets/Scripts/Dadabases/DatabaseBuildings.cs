@@ -1,3 +1,5 @@
+using System.IO;
+using OpenRTS.Assets.Scripts.Buildings.Civils;
 using UnityEngine;
 
 namespace OpenRTS.Assets.Scripts.Dadabases
@@ -6,7 +8,7 @@ namespace OpenRTS.Assets.Scripts.Dadabases
     {
         void Start()
         {
-            
+            //TryLoadBuildings();
         }
 
         void Update()
@@ -14,8 +16,14 @@ namespace OpenRTS.Assets.Scripts.Dadabases
             
         }
 
-        public string GetName() {
-            return "Building database finded";
+        private bool TryLoadBuildings() {
+            /*string path = "./Data/3-30-21B/3-30-21B.json";
+            string json = File.ReadAllText(path);
+            House h = JsonUtility.FromJson<House>(json);
+            var go = Resources.Load<GameObject>(path);
+            
+            Debug.Log(json);*/
+            return false;
         }
         
         public GameObject[] GetRecords() {

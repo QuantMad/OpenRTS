@@ -1,18 +1,25 @@
 using System;
+using System.IO;
+using Assembly_CSharp.Assets.Scripts.BuildingsProperties;
 using UnityEngine;
 
 namespace OpenRTS.Assets.Scripts.Buildings
 {
-    [Serializable]
     public abstract class Building : MonoBehaviour
     {
-        [SerializeField]
-        public string Name = "Undefined";
+        internal BuildingProperties _BuildingData;
+        public BuildingProperties BuildingData => _BuildingData;
 
-        // Start is called before the first frame update
+        [SerializeField]
+        private string Name = "Unnamed";
+
+        [SerializeField]
+        [Range(0, 999999)]
+        private int Cost = 0;
+
         void Start()
         {
-            
+            _BuildingData = new BuildingProperties(Name, Cost);
         }
 
         // Update is called once per frame
@@ -21,6 +28,9 @@ namespace OpenRTS.Assets.Scripts.Buildings
             
         }
 
-        public abstract bool Export(string path);
+        public virtual void ExportProperties(string path) {
+            string json = JsonUtility.ToJson(_BuildingData);
+            File.WriteAllText(path, json);
+        }
     }
 }

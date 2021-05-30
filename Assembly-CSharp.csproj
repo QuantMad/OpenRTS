@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\Controllers\Gameplay\Gameplay Modes\GameplayMode.cs" />
      <Compile Include="Assets\Scripts\Buildings\Engineering.cs" />
      <Compile Include="Assets\Scripts\Cameras\MainCamera.cs" />
+     <Compile Include="Assets\Debug\Debug.cs" />
      <Compile Include="Assets\Scripts\Cameras\UICamera.cs" />
      <Compile Include="Assets\Scripts\Dadabases\DatabasesManager.cs" />
      <Compile Include="Assets\Scripts\Buildings\Industrial.cs" />
@@ -55,7 +56,9 @@
      <Compile Include="Assets\Scripts\Buildings\Civils\House.cs" />
      <Compile Include="Assets\Scripts\Buildings\Industrials\Factory.cs" />
      <Compile Include="Assets\Scripts\Dadabases\IDataBase.cs" />
-     <Compile Include="Assets\Debug\Debug.cs" />
+     <Compile Include="Assets\Scripts\BuildingsProperties\CivilProperties.cs" />
+     <Compile Include="Assets\Scripts\BuildingsProperties\BuildingProperties.cs" />
+     <Compile Include="Assets\Scripts\BuildingsProperties\HouseProperties.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -629,6 +632,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>/home/quantmad/Project/Unity/OpenRTS/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>/home/quantmad/Project/Unity/OpenRTS/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>/home/quantmad/Project/Unity/OpenRTS/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -638,14 +644,11 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/home/quantmad/Project/Unity/OpenRTS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>/home/quantmad/Project/Unity/OpenRTS/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-        <HintPath>/home/quantmad/Project/Unity/OpenRTS/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Toolchain.Linux-x86_64">
         <HintPath>/home/quantmad/Project/Unity/OpenRTS/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>/home/quantmad/Project/Unity/OpenRTS/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
         <HintPath>/home/quantmad/Project/Unity/OpenRTS/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
