@@ -1,4 +1,6 @@
+using System;
 using BuildingsProperties.Engineerings;
+using UnityEngine;
 
 namespace Buildings.Engineerings
 {
@@ -10,6 +12,11 @@ namespace Buildings.Engineerings
         void Start()
         {
             _BuildingData = new TVTowerProperties();
+        }
+
+        public override void SetProperties(string json)
+        {
+            _BuildingData = JsonUtility.FromJson<TVTowerProperties>(json);
         }
     }
 }

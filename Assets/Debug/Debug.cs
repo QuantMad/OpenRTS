@@ -17,10 +17,11 @@ namespace Assets.Debug {
         void Update()
         {
             if (Input.GetKeyUp(KeyCode.E)) {
-                //var house = building.GetComponent<House>();
+                var house = building.GetComponent<House>();
                 //house.ExportProperties($"./Data/3-30-21B/3-30-21B.json");
-                //string json = JsonUtility.ToJson(b.GetComponent<House>());
-                ///File.WriteAllText("./Data/Resources/test.json", json);
+
+                string json = JsonUtility.ToJson(house._BuildingData);
+                File.WriteAllText("./Data/test.json", json);
             }
         }
     }

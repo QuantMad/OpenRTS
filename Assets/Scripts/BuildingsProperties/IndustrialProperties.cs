@@ -3,7 +3,7 @@ using System;
 namespace BuildingsProperties
 {
     [Serializable]
-    public class IndustrialProperties : BuildingProperties
+    public abstract class IndustrialProperties : BuildingProperties
     {
         public IndustrialProperties() : base() {
 

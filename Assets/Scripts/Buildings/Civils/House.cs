@@ -18,10 +18,9 @@ namespace Buildings.Civils
             _BuildingData = new HouseProperties();
         }
 
-        /*public override void ExportProperties(string path)
+        public override void SetProperties(string json)
         {
-            string json = JsonUtility.ToJson(HouseData);
-            File.WriteAllText(path, json);
-        }*/
+            _BuildingData = JsonUtility.FromJson<HouseProperties>(json);
+        }
     }
 }

@@ -4,8 +4,10 @@ using UnityEngine;
 namespace BuildingsProperties
 {
     [Serializable]
-    public class BuildingProperties 
+    public abstract class BuildingProperties 
     {
+        public BuildingTypes BuildingType;
+
         [SerializeField]
         internal string _Name;
         public string Name => _Name;

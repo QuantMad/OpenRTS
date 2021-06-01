@@ -1,3 +1,7 @@
+using System;
+using System.IO;
+using Buildings;
+using Buildings.Civils;
 using UnityEngine;
 
 namespace Dadabases
@@ -6,7 +10,7 @@ namespace Dadabases
     {
         void Start()
         {
-            //TryLoadBuildings();
+            GameObject[] houses = TryLoadBuildings<House>("Buildings/Civil/House");
         }
 
         void Update()
@@ -14,14 +18,29 @@ namespace Dadabases
             
         }
 
-        private bool TryLoadBuildings() {
-            /*string path = "./Data/3-30-21B/3-30-21B.json";
-            string json = File.ReadAllText(path);
-            House h = JsonUtility.FromJson<House>(json);
-            var go = Resources.Load<GameObject>(path);
-            
-            Debug.Log(json);*/
-            return false;
+        private GameObject[] TryLoadBuildings<T>(string path) where T : Building {
+            string[] folders = Directory.GetDirectories($"./Assets/Resources/{path}/");
+            GameObject[] buildings = new GameObject[folders.Length];
+
+            string name;
+            GameObject building;
+            foreach(string folder in folders) {
+                name = folder.Substring(folder.LastIndexOf('/') + 1);
+                string resource = $"{path}/{name}/{name}";
+
+                UnityEngine.Object prefab = Resources.Load(resource);
+                building = (GameObject) Instantiate(prefab, new Vector3(0, 0, 0), Quaternion.identity);
+                building.SetActive(false);
+
+                // Load json
+                var p2 = $"{folder}/{name}_data.json";
+                string json = File.ReadAllText(p2);
+                
+                building.AddComponent<T>().SetProperties(json);
+                Debug.Log(building.GetComponent<T>().BuildingData.ToString());
+            }
+
+            return buildings;
         }
         
         public GameObject[] GetRecords() {
