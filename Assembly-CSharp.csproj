@@ -36,29 +36,28 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BuildingsProperties\Engineerings\TVTowerProperties.cs" />
-     <Compile Include="Assets\Scripts\BuildingsProperties\CivilProperties.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Civils\HouseProperties.cs" />
      <Compile Include="Assets\Scripts\Dadabases\DatabaseBuildings.cs" />
-     <Compile Include="Assets\Scripts\BuildingsProperties\BuildingProperties.cs" />
      <Compile Include="Assets\Scripts\Controllers\Gameplay\Gameplay Modes\GameplayModeFree.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Industrials\FactoryProperties.cs" />
+     <Compile Include="Assets\Scripts\Buildings\BuildingProperties.cs" />
      <Compile Include="Assets\Scripts\Buildings\Building.cs" />
-     <Compile Include="Assets\Scripts\Buildings\Civils\Public.cs" />
-     <Compile Include="Assets\Scripts\BuildingsProperties\EngineeringProperties.cs" />
-     <Compile Include="Assets\Scripts\BuildingsProperties\Civils\HouseProperties.cs" />
-     <Compile Include="Assets\Scripts\Buildings\Civil.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Engineerings\TVTowerProperties.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Industrials\IndustrialProperties.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Engineerings\EngineeringProperties.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Civils\Civil.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Industrials\Industrial.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Engineerings\Engineering.cs" />
      <Compile Include="Assets\Scripts\Controllers\UIController.cs" />
+     <Compile Include="Assets\Scripts\Buildings\SuperBuilding.cs" />
      <Compile Include="Assets\Scripts\Controllers\Gameplay\Gameplay Modes\GameplayMode.cs" />
-     <Compile Include="Assets\Scripts\Buildings\Engineering.cs" />
      <Compile Include="Assets\Scripts\Cameras\MainCamera.cs" />
      <Compile Include="Assets\Debug\Debug.cs" />
-     <Compile Include="Assets\Scripts\BuildingsProperties\IndustrialProperties.cs" />
      <Compile Include="Assets\Scripts\Cameras\UICamera.cs" />
      <Compile Include="Assets\Scripts\Dadabases\DatabasesManager.cs" />
-     <Compile Include="Assets\Scripts\BuildingsProperties\BuildingTypes.cs" />
-     <Compile Include="Assets\Scripts\Buildings\Industrial.cs" />
      <Compile Include="Assets\Scripts\Controllers\Gameplay\GameplayController.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Civils\CivilProperties.cs" />
      <Compile Include="Assets\Scripts\Buildings\Engineerings\TVTower.cs" />
-     <Compile Include="Assets\Scripts\Buildings\Civils\Store.cs" />
      <Compile Include="Assets\Scripts\Controllers\Gameplay\Gameplay Modes\GameplayModeBuilding.cs" />
      <Compile Include="Assets\Scripts\Buildings\Civils\House.cs" />
      <Compile Include="Assets\Scripts\Buildings\Industrials\Factory.cs" />

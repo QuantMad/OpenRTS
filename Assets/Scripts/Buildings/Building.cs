@@ -1,13 +1,15 @@
 using System;
-using BuildingsProperties;
 using UnityEngine;
 
 namespace Buildings
 {
-    public abstract class Building : MonoBehaviour
+    public abstract class Building<P> : SuperBuilding where P : BuildingProperties
     {
-        internal BuildingProperties _BuildingData;
-        public BuildingProperties BuildingData => _BuildingData;
-        public abstract void SetProperties(string json);
+        [SerializeField]
+        internal P _BuildingData;
+        public virtual P BuildingData => _BuildingData;
+        public override void SetProperties(string json) {
+            _BuildingData = JsonUtility.FromJson<P>(json);
+        }
     }
 }
