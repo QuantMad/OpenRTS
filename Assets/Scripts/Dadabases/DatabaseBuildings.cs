@@ -8,51 +8,53 @@ namespace Dadabases
 {
     public class DatabaseBuildings : MonoBehaviour, IDataBase
     {
-        private Dictionary<string, GameObject> Civils = new Dictionary<string, GameObject>();
-        private Dictionary<string, GameObject> Engineerings;// = new Dictionary<string, GameObject>();
-        private Dictionary<string, GameObject> Industrials;// = new Dictionary<string, GameObject>();
+        private const string RESOURCES_PATH = "./Assets/Resources/";
+        private string[] dbPatches = new string[] {
+            "Buildings/Civil"
+        };
+
+        public bool IsEnable = false;
+        private Dictionary<string, GameObject> _civils = new Dictionary<string, GameObject>();
         
         void Start()
         {
-            //string resource = "Buildings/Civil/House/3-30-21B";
+            if (!IsEnable) return;
 
-            LoadBuildings<House>("Buildings/Civils", Civils);
+            LoadBuildings<House>(dbPatches[0], _civils);
         }
 
-        private void LoadBuildings<B>(string path, Dictionary<string, GameObject> gos) where B : SuperBuilding { // Buildings/Civil/
-            string[] dirs = Directory.GetDirectories("./Assets/Resources/"+path);
-            foreach(string dir in dirs) {
-                string name = dir.Substring(dir.LastIndexOf('/') + 1);
+        private void LoadBuildings<B>(string path, Dictionary<string, GameObject> gos) where B : SuperBuilding 
+        { 
+            string[] resourcesDirectories = Directory.GetDirectories(RESOURCES_PATH+path);
+            foreach(string directory in resourcesDirectories) 
+            {
+                string name = directory.Substring(directory.LastIndexOf('/') + 1);
                 var go = LoadBuilding<B>(path+"/"+name);
                 gos.Add(name, go);
             }
         }
 
-        private GameObject LoadBuilding<B>(string resource) where B : SuperBuilding {
+        private GameObject LoadBuilding<B>(string resource) where B : SuperBuilding 
+        {
             // Имя файла
             string name = resource.Substring(resource.LastIndexOf('/') + 1); 
 
             // Загрузка .fbx
-            string p = $"{resource}/{name}";
-            bool e = File.Exists(p+".fbx");
-            UnityEngine.Object rawObject = Resources.Load(p);
+            string path = $"{resource}/{name}";
+            UnityEngine.Object rawObject = Resources.Load(path);
             GameObject building = (GameObject) Instantiate(rawObject, new Vector3(0,0,0), Quaternion.identity);
             building.SetActive(false);
             building.transform.parent = transform;
 
             // Десериализация 
-            string json = File.ReadAllText($"./Assets/Resources/{p}_data.json");
-            building.AddComponent<B>().SetProperties(json);
+            string json = File.ReadAllText($"{RESOURCES_PATH}/{path}_data.json");
+            building.AddComponent<B>().DeserializeProperties(json);
 
             return building;
         }
-
-        void Update()
-        {
-            
-        }
         
-        public GameObject[] GetRecords() {
+        public GameObject[] GetRecords() 
+        {
             return null;
         }
     }

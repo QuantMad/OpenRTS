@@ -7,19 +7,21 @@ namespace Buildings.Civils
     public sealed class HouseProperties : CivilProperties
     {
         [SerializeField]
-        internal int _Appartaments;
-        public int Appartaments => _Appartaments;
+        internal int _appartaments;
+        public int Appartaments => _appartaments;
 
-        public HouseProperties() : base() {
-            _Appartaments = 1;
+        public HouseProperties() : base() 
+        {
+            _appartaments = 1;
         }
-        public HouseProperties(string name, int cost, int appartaments) : base(name, cost) {
-            _Appartaments = appartaments;
+        public HouseProperties(string name, int cost, int appartaments) : base(name, cost) 
+        {
+            _appartaments = appartaments;
         }
 
         public override string ToString()
         {
-            return base.ToString() + $", Appartaments:{_Appartaments}";
+            return base.ToString() + $", Appartaments:{_appartaments}";
         }
     }
 }

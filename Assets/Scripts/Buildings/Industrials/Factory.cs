@@ -1,10 +1,8 @@
-using System;
-
 namespace Buildings.Industrials
 {
-    public class Factory : Industrial<FactoryProperties>
+    /** Тип постройки "Завод". Существует для дальнейшего наследования **/
+    public abstract class Factory<P> : Industrial<P> where P : FactoryProperties
     {
-       // public new FactoryProperties BuildingData => (FactoryProperties) _BuildingData;
 
     }
 }

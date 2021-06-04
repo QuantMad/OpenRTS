@@ -2,15 +2,15 @@ using UnityEngine;
 
 namespace Dadabases
 {
-    public class DatabasesManager : MonoBehaviour {
-        public bool TryGetDataBase<T>(out IDataBase dbase) where T : IDataBase {  
+    public class DatabasesManager : MonoBehaviour 
+    {
+        public bool TryGetDataBase<T>(out IDataBase dbase) where T : IDataBase 
+        {  
             int dbasesCount = transform.childCount;
             DatabaseBuildings database = null;
             
             for(int index = 0; index < dbasesCount; index++) {
-                if (transform.GetChild(index).TryGetComponent<DatabaseBuildings>(out database)) {
-                    break;
-                }
+                if (transform.GetChild(index).TryGetComponent<DatabaseBuildings>(out database)) break;
             }
 
             dbase = database;

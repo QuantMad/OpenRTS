@@ -1,15 +1,22 @@
-using System;
 using UnityEngine;
 
 namespace Buildings
 {
+    /** Обобщение здания. P определяет тип параметров здания в зависимости от типа здания. **/
     public abstract class Building<P> : SuperBuilding where P : BuildingProperties
     {
+        // Параметры здания. Уникальны для каждого типа здания
         [SerializeField]
-        internal P _BuildingData;
-        public virtual P BuildingData => _BuildingData;
-        public override void SetProperties(string json) {
-            _BuildingData = JsonUtility.FromJson<P>(json);
+        internal P _properties;
+        public P Properties => _properties;
+
+        /* Производит десериализацию параметров из json */
+        public override void DeserializeProperties(string json) 
+        {
+            // TODO: Валидация входящего json
+            // TODO: Обработать возможные исключения невозможности 
+            //       десериализации в данный тип параметров объекта
+            _properties = JsonUtility.FromJson<P>(json);
         }
     }
 }

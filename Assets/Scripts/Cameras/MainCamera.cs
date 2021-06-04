@@ -13,11 +13,11 @@ namespace Cameras
         public float ApproximationSpeed = 1;
 
         private bool isOnDragging = false;
-        private Camera _MainCamera;
+        private Camera _nainCamera;
 
         void Start()
         {
-            _MainCamera = GetComponent<Camera>();
+            _nainCamera = GetComponent<Camera>();
         }
 
         void Update()
@@ -27,17 +27,20 @@ namespace Cameras
         }
 
         /* Перемещение камеры мышью */
-        private void CameraDragging() {
+        private void CameraDragging() 
+        {
             if (DraggingLock) return;
 
-            if (!Input.GetMouseButton(1)) {
+            if (!Input.GetMouseButton(1)) 
+            {
                 isOnDragging = false;
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
                 return;
             }
 
-            if (!isOnDragging) {
+            if (!isOnDragging) 
+            {
                 isOnDragging = true;
                 Cursor.lockState = CursorLockMode.Confined;
                 Cursor.visible = false;
@@ -51,15 +54,16 @@ namespace Cameras
         }
 
     /* TODO: Сделать честное приближение/отдаление камеры */
-        private void Approximation() {
+        private void Approximation() 
+        {
             if (ApproximationLock) return;
 
             if (Input.mouseScrollDelta.y == 0) return;
 
-            float fov = _MainCamera.fieldOfView;
+            float fov = _nainCamera.fieldOfView;
             float newValue = fov + (Input.mouseScrollDelta.y > 0 ? -ApproximationSpeed : ApproximationSpeed);
             fov = Mathf.Clamp(newValue, 20, 60);
-            _MainCamera.fieldOfView = fov;
+            _nainCamera.fieldOfView = fov;
         }
     }
 }

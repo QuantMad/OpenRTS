@@ -7,19 +7,21 @@ namespace Buildings.Engineerings
     public sealed class TVTowerProperties : EngineeringProperties
     {
         [SerializeField]
-        internal int _Coverage;
-        public int Coverage => _Coverage;
+        internal int _coverage;
+        public int Coverage => _coverage;
 
-        public TVTowerProperties() : base() {
-            _Coverage = 1;
+        public TVTowerProperties() : base() 
+        {
+            _coverage = 1;
         }
-        public TVTowerProperties(string name, int cost, int coverage) : base(name, cost) {
-            _Coverage = coverage;
+        public TVTowerProperties(string name, int cost, int coverage) : base(name, cost) 
+        {
+            _coverage = coverage;
         }
 
         public override string ToString()
         {
-            return base.ToString() + $", Coverage:{_Coverage}";
+            return base.ToString() + $", Coverage:{_coverage}";
         }
     }
 }

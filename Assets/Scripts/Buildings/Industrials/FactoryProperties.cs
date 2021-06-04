@@ -1,8 +1,6 @@
-using System;
-
 namespace Buildings.Industrials
 {
-    public sealed class FactoryProperties : IndustrialProperties
+    public abstract class FactoryProperties : IndustrialProperties
     {
 
     }

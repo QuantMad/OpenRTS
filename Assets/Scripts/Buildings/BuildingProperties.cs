@@ -7,26 +7,42 @@ namespace Buildings
     public abstract class BuildingProperties 
     {
         [SerializeField]
-        internal string _Name;
-        public string Name => _Name;
+        public const int MaxHealth = 100;
+        
+        [SerializeField]
+        internal string _name;
+        public string Name => _name;
 
         [SerializeField]
-        internal int _Cost;
-        public int Cost => _Cost;
+        [Range(0, 9999999)]
+        internal int _cost;
+        public int Cost => _cost;
 
-        public BuildingProperties() {
-            _Name = "Unnamed";
-            _Cost = 0;
+        [SerializeField]
+        [Range(0, MaxHealth)]
+        private int _health = MaxHealth;
+        public int Health {
+            get => _health;
+            set {
+                _health = value < 0 ? 0 : value > MaxHealth ? MaxHealth : value;
+            }
         }
 
-        public BuildingProperties(string name, int cost) {
-            _Name = name;
-            _Cost = cost;
+        public BuildingProperties() 
+        {
+            _name = "Unnamed";
+            _cost = 0;
+        }
+
+        public BuildingProperties(string name, int cost) 
+        {
+            _name = name;
+            _cost = cost;
         }
 
         public override string ToString()
         {
-            return $"Name:{_Name}, Cost:{_Cost}";
+            return $"Name:{_name}, Cost:{_cost}, Health:{_health}/{MaxHealth}";
         }
     }
 }

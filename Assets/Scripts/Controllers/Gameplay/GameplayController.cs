@@ -1,18 +1,20 @@
+using Controllers.Gameplay.GameplayModes;
 using UnityEngine;
 
 namespace Controllers.Gameplay {
     public class GameplayController : MonoBehaviour
     {
-        public enum EGameplayMode {
+        public enum EGameplayMode 
+        {
             free = 0,
             building = 1
         }
-        
-        public GameObject[] GameplayModes;
 
         [SerializeField]
         private EGameplayMode GameplayMode = EGameplayMode.free;
-        private GameObject _GameplayMode;
+        public GameObject[] GameplayModes;
+
+        private GameObject _gameplayMode;
 
         void Start()
         {
@@ -24,11 +26,11 @@ namespace Controllers.Gameplay {
             
         }
 
-        private void SwitchGameplayMode(EGameplayMode mode) {
-            GameplayMode = mode;
-            int index = (int) GameplayMode;
-            if (_GameplayMode != null) Destroy(_GameplayMode);
-            _GameplayMode = Instantiate(GameplayModes[index], transform);
+        private void SwitchGameplayMode(EGameplayMode mode) 
+        {
+            int index = (int) (GameplayMode = mode);
+            if (_gameplayMode != null) Destroy(_gameplayMode);
+            _gameplayMode = Instantiate(GameplayModes[index], transform);
         }
     }
 }
