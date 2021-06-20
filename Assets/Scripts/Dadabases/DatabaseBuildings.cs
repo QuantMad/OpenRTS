@@ -15,7 +15,7 @@ namespace Dadabases
 
         public bool IsEnable = false;
         private Dictionary<string, GameObject> _civils = new Dictionary<string, GameObject>();
-        
+        public Dictionary<string, GameObject> Civils => _civils;
         void Start()
         {
             if (!IsEnable) return;
@@ -51,6 +51,11 @@ namespace Dadabases
             building.AddComponent<B>().DeserializeProperties(json);
 
             return building;
+        }
+
+        public bool TryGetBuilding(string name, out GameObject building) 
+        {
+            return _civils.TryGetValue(name, out building);
         }
         
         public GameObject[] GetRecords() 

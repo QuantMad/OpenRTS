@@ -15,8 +15,8 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
 --- !u!4 &565180410300948310
 Transform:
   m_ObjectHideFlags: 0
@@ -44,3 +44,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DatabasesManager: {fileID: 7144327024215742830, guid: edde904e603b7bba58f3614dc7ec0b20, type: 3}
+  Database: {fileID: 6313896504800386454, guid: ecd3bd4c4f0706d95988c0940db351aa, type: 3}

@@ -1,3 +1,4 @@
+using Buildings.Behaviours;
 using UnityEngine;
 
 namespace Buildings
@@ -10,6 +11,8 @@ namespace Buildings
         internal P _properties;
         public P Properties => _properties;
 
+        private BuildingBehaviour _buildingBehaviour;
+
         /* Производит десериализацию параметров из json */
         public override void DeserializeProperties(string json) 
         {
@@ -17,6 +20,15 @@ namespace Buildings
             // TODO: Обработать возможные исключения невозможности 
             //       десериализации в данный тип параметров объекта
             _properties = JsonUtility.FromJson<P>(json);
+        }
+
+        public void SetBehaviour<B>() where B : BuildingBehaviour 
+        {
+            if (_buildingBehaviour != null) 
+            {
+                Destroy(_buildingBehaviour);
+            }
+            _buildingBehaviour = gameObject.AddComponent<B>();
         }
     }
 }

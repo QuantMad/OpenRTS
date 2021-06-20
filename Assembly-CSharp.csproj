@@ -47,10 +47,12 @@
      <Compile Include="Assets\Scripts\Buildings\Engineerings\EngineeringProperties.cs" />
      <Compile Include="Assets\Scripts\Buildings\Civils\Civil.cs" />
      <Compile Include="Assets\Scripts\Buildings\Industrials\Industrial.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Behaviours\PreviewBehaviour.cs" />
      <Compile Include="Assets\Scripts\Buildings\Engineerings\Engineering.cs" />
      <Compile Include="Assets\Scripts\Controllers\UIController.cs" />
      <Compile Include="Assets\Scripts\Buildings\SuperBuilding.cs" />
      <Compile Include="Assets\Scripts\Controllers\Gameplay\GameplayModes\GameplayMode.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Behaviours\BuildingBehaviour.cs" />
      <Compile Include="Assets\Scripts\Cameras\MainCamera.cs" />
      <Compile Include="Assets\Debug\Debug.cs" />
      <Compile Include="Assets\Scripts\Cameras\UICamera.cs" />
