@@ -37,7 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Buildings\Civils\HouseProperties.cs" />
-     <Compile Include="Assets\Scripts\Dadabases\DatabaseBuildings.cs" />
+     <Compile Include="Assets\Scripts\Databases\DatabaseBuildings.cs" />
+     <Compile Include="Assets\Scripts\Databases\Database.cs" />
      <Compile Include="Assets\Scripts\Controllers\Gameplay\GameplayModes\GameplayModeFree.cs" />
      <Compile Include="Assets\Scripts\Buildings\Industrials\FactoryProperties.cs" />
      <Compile Include="Assets\Scripts\Buildings\BuildingProperties.cs" />
@@ -57,14 +58,14 @@
      <Compile Include="Assets\Scripts\Cameras\MainCamera.cs" />
      <Compile Include="Assets\Debug\Debug.cs" />
      <Compile Include="Assets\Scripts\Cameras\UICamera.cs" />
-     <Compile Include="Assets\Scripts\Dadabases\DatabasesManager.cs" />
+     <Compile Include="Assets\Scripts\Databases\DatabasesManager.cs" />
      <Compile Include="Assets\Scripts\Controllers\Gameplay\GameplayController.cs" />
      <Compile Include="Assets\Scripts\Buildings\Civils\CivilProperties.cs" />
      <Compile Include="Assets\Scripts\Buildings\Engineerings\TVTower.cs" />
      <Compile Include="Assets\Scripts\Controllers\Gameplay\GameplayModes\GameplayModeBuilding.cs" />
      <Compile Include="Assets\Scripts\Buildings\Civils\House.cs" />
      <Compile Include="Assets\Scripts\Buildings\Industrials\Factory.cs" />
-     <Compile Include="Assets\Scripts\Dadabases\IDataBase.cs" />
+     <Compile Include="Assets\Scripts\Databases\IDeserializable.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/quantmad/Unity/Install/2020.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

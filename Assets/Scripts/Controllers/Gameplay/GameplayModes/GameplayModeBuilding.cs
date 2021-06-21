@@ -1,7 +1,6 @@
 using Buildings;
 using Buildings.Behaviours;
-using Buildings.Civils;
-using Dadabases;
+using Databases;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -10,13 +9,11 @@ namespace Controllers.Gameplay.GameplayModes
     [System.Serializable]
     public sealed class GameplayModeBuilding : GameplayMode
     {
-        private const float GridStep = .2f;
+        private const float GridStep = .2f; /// TODO: Вынести сетку в отдельный объект
 
         [SerializeField]
         private GameObject Database;
         private DatabaseBuildings db;
-        public GameObject[] Buildings { get; private set; }
-        public int BuildingsCount => Buildings.Length - 1;
 
         private int _Index = -1;
         private int Index
@@ -24,15 +21,15 @@ namespace Controllers.Gameplay.GameplayModes
             get => _Index;
             set
             {
+                //if (db == null) return;
                 int prevIndex = _Index;
-                _Index = value < 0 ? BuildingsCount : value > BuildingsCount ? 0 : value;
+                _Index = value < 0 ? db.ItemsCount - 1 : value > db.ItemsCount - 1 ? 0 : value;
 
                 ChangePreviewBuilding(prevIndex);
             }
         }
 
-        public GameObject Selected => Index != -1 ? Buildings[Index] : null;
-
+        //public GameObject Selected => Index != -1 ? db.Civils[Index] : null;
         private GameObject _PreviewBuilding;
         private GameObject PreviewBuilding
         {
@@ -48,18 +45,18 @@ namespace Controllers.Gameplay.GameplayModes
         
         void Start()
         {
-            db = Database.GetComponent<DatabaseBuildings>();
-            Buildings = db.GetRecords();
+            db = DatabasesManager.GetComponent<DatabasesManager>().Civils;
             Index = 0;
         }
 
         void OnEnable() {
-            
+            if (db != null) Index = 0;
         }
 
         void OnDisable()
         {
-            
+            Destroy(PreviewBuilding);
+            _Index = -1;
         }
 
         void Update()
@@ -101,9 +98,9 @@ namespace Controllers.Gameplay.GameplayModes
 
         private void ChangePreviewBuilding(int prevIndex)
         {
-            if (Selected == null || prevIndex == _Index) return;
+            if (prevIndex == Index || _Index == -1) return;
 
-            GameObject newPreviewBuilding = Instantiate(Selected);
+            GameObject newPreviewBuilding = Instantiate(db.records[Index]);
             
             newPreviewBuilding.GetComponent<SuperBuilding>().SetGameplayMode<PlacementBehaviour>();
             if (PreviewBuilding != null)
@@ -125,7 +122,7 @@ namespace Controllers.Gameplay.GameplayModes
 
             relativePoint.x = (GridStep - (relativePoint.x - xSolid)) > (GridStep / 2) ? xSolid : xSolid + GridStep;
             relativePoint.z = (GridStep - (relativePoint.z - zSolid)) > (GridStep / 2) ? zSolid : zSolid + GridStep;
-            relativePoint.y += PreviewBuilding.GetComponent<Renderer>().bounds.size.y / 2;
+            //relativePoint.y += PreviewBuilding.GetComponent<Renderer>().bounds.size.y / 2;
 
             if (PreviewBuilding.transform.position != relativePoint)
                 PreviewBuilding.transform.position = relativePoint;
@@ -133,38 +130,33 @@ namespace Controllers.Gameplay.GameplayModes
 
         private void PlaceBuilding()
         {
-            if (!Input.GetMouseButtonUp(0) || Selected == null) return;
+            if (!Input.GetMouseButtonUp(0) || Index == -1) return;
 
             if (!PreviewBuilding.GetComponent<PlacementBehaviour>().CanBePlaced)
                 return;
 
-            GameObject newBuilding = Instantiate(Selected);
+            GameObject newBuilding = Instantiate(db.records[Index]);
             newBuilding.GetComponent<SuperBuilding>().SetGameplayMode<GameplayBehaviour>();
             newBuilding.transform.position = PreviewBuilding.transform.position;
             newBuilding.transform.rotation = PreviewBuilding.transform.rotation;
             newBuilding.SetActive(true);
         }
 
-        public void SetSelectedBuilding(string name)
+        /*public void SetSelectedBuilding(string name)
         {
             for (int i = 0; i <= BuildingsCount; i++)
             {
-                if (Buildings[i].name == name)
+                if (db.records[i].name == name)
                 {
                     Index = i;
                     return;
                 }
             }
-        }
+        }*/
 
         void OnDestroy()
         {
-            Destroy(PreviewBuilding);
+            
         }
-
-        /*public override Modes GetMode()
-        {
-            return Modes.Building;
-        }*/
     }
 }

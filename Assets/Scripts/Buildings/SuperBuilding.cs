@@ -1,5 +1,5 @@
 using Buildings.Behaviours;
-using Controllers.Gameplay.GameplayModes;
+using Databases;
 using UnityEngine;
 
 namespace Buildings
@@ -7,7 +7,7 @@ namespace Buildings
     /// FIXME: Переделать в интерфейс?
     /** Базовый, элементарный класс, определяющий абстракцию здания. Костыль.
         Нужен для деформализации при десериализации объекта **/
-    public abstract class SuperBuilding : MonoBehaviour
+    public abstract class SuperBuilding : MonoBehaviour, IDeserializable
     {
         public BuildingBehaviour gameplayBehaviour { get; private set; }
         public abstract string SerializeProperties();

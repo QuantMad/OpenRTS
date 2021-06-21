@@ -28,7 +28,7 @@ namespace Buildings.Behaviours
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.layer != 8) return;
+            if (other.gameObject.layer != 6) return;
 
             ActiveCollisionsCount++;
             FillColor(Color.red);
@@ -37,7 +37,7 @@ namespace Buildings.Behaviours
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.layer != 8) return;
+            if (other.gameObject.layer != 6) return;
             ActiveCollisionsCount--;
             if (ActiveCollisionsCount == 0)
             {
