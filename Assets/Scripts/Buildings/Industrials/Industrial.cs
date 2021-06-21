@@ -1,8 +1,8 @@
 namespace Buildings.Industrials
 {
-    // Нужен ли?
+    // Тип постройки "Индрустриальная"
     public abstract class Industrial<P> : Building<P> where P : IndustrialProperties
     {
-
+        
     }
 }

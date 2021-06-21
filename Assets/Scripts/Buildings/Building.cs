@@ -22,6 +22,11 @@ namespace Buildings
             _properties = JsonUtility.FromJson<P>(json);
         }
 
+        public override string SerializeProperties()
+        {
+            return JsonUtility.ToJson(_properties);
+        }
+
         public void SetBehaviour<B>() where B : BuildingBehaviour 
         {
             if (_buildingBehaviour != null) 

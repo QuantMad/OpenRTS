@@ -3,7 +3,8 @@ using UnityEngine;
 
 namespace Buildings.Behaviours
 {
-    public class BuildingBehaviour : MonoBehaviour
+    public abstract class BuildingBehaviour : MonoBehaviour
     {
+        
     }
 }

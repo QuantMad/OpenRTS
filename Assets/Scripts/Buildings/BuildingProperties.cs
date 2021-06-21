@@ -14,7 +14,7 @@ namespace Buildings
         public string Name => _name;
 
         [SerializeField]
-        [Range(0, 9999999)]
+        [Range(0, 999999)]
         internal int _cost;
         public int Cost => _cost;
 

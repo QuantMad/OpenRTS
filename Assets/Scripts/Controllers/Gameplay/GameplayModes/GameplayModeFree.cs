@@ -14,12 +14,12 @@ namespace Controllers.Gameplay.GameplayModes
         }
 
         void OnEnable() {
-            Debug.Log("Free mode activated");
+            //Debug.Log("Free mode activated");
         }
 
         void OnDisable()
         {
-            Debug.Log("Free mode deactivated");
+            //Debug.Log("Free mode deactivated");
         }
     }
 }
