@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: b47008e59f1af8ce1b0cf7b12532494d
+labels:
+- Architecture
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -98,5 +100,5 @@ ModelImporter:
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
+  assetBundleName: buildings/civil/houses/3-30-23k
   assetBundleVariant: 

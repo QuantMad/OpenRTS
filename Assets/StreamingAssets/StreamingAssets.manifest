@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 3209510272
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: buildings/civil/houses/3-30-21b
+      Dependencies: {}
+    Info_1:
+      Name: buildings/civil/houses/3-30-23k
+      Dependencies: {}

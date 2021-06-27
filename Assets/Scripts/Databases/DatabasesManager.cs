@@ -10,6 +10,8 @@ namespace Databases
         void Start() {
             Civils = gameObject.AddComponent<DatabaseBuildings>();
             Civils.LoadItems<House>("Buildings/Civil/Houses");
+
+            
         }
     }
 }

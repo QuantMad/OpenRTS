@@ -5,7 +5,6 @@ namespace Databases
 {
     public class DatabaseBuildings : Database
     {
-
         internal override GameObject LoadObject<T>(string path, string name)
         {
             var building = base.LoadObject<T>(path, name);

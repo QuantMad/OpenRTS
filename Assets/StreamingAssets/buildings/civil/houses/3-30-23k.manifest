@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1575466412
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 11fb08dbd056e302dff8e27fa042ff22
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a29539beda2e91614da379a0e5868d46
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/Buildings/Civil/Houses/3-30-23K/Textures/old_door_color.jpg
+- Assets/Resources/Buildings/Civil/Houses/3-30-23K/3-30-23K.fbx
+- Assets/Resources/Buildings/Civil/Houses/3-30-23K/Textures/sloppy_brickwork_color.jpg
+- Assets/Resources/Buildings/Civil/Houses/3-30-23K/Textures/old_boards_color.jpg
+- Assets/Resources/Buildings/Civil/Houses/3-30-23K/Textures/old_slate_color.png
+- Assets/Resources/Buildings/Civil/Houses/3-30-23K/3-30-23K_data.json
+- Assets/Resources/Buildings/Civil/Houses/3-30-23K/Textures/light_gray_painted_boadrs_color.png
+- Assets/Resources/Buildings/Civil/Houses/3-30-23K/Textures/blue_painted_board_color.png
+- Assets/Resources/Buildings/Civil/Houses/3-30-23K/Textures/new_boards_color.jpg
+Dependencies: []
